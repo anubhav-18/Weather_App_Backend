@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:weather_app/src/logic/view/settings_view.dart';
+import 'package:weather_app/src/logic/view/city_manage.dart';
+import 'package:weather_app/src/logic/view/setting_page.dart';
 import 'package:weather_app/src/logic/view/weather_home.dart';
 
 void main() {
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/home' : (context) => const WeatherHome(),
+        '/citymanage' :(context) => const CityManagePage(),
         '/setting' :(context) => const SettingPage(),
       },
     );

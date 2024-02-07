@@ -37,14 +37,14 @@ class _WeatherHomeState extends State<WeatherHome> {
                     ),
                   ),
                   IconButton(
-                      onPressed: () => Navigator.pushNamed(context, '/setting'),
+                      onPressed: () => Navigator.pushNamed(context, '/citymanage'),
                       icon: const Icon(
                         Icons.location_city,
                         size: 25,
                         color: Colors.white,
                       )),
                   IconButton(
-                      onPressed: () {},
+                      onPressed: () => Navigator.pushNamed(context, '/setting'),
                       icon: const Icon(
                         Icons.more_vert,
                         size: 25,

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:weather_app/src/constants/constants.dart';
 
-class SettingPage extends StatefulWidget {
-  const SettingPage({super.key});
+class CityManagePage extends StatefulWidget {
+  const CityManagePage({super.key});
 
   @override
-  State<SettingPage> createState() => _SettingPageState();
+  State<CityManagePage> createState() => _CityManagePageState();
 }
 
-class _SettingPageState extends State<SettingPage> {
+class _CityManagePageState extends State<CityManagePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,6 +26,16 @@ class _SettingPageState extends State<SettingPage> {
             icon: const Icon(Icons.search, color: whiteClr,),
           )
         ],
+      ),
+      body: Container(
+        color: blackClr,
+        child: const Column(
+          children: [
+            Divider(
+              thickness: 0.5,
+            )
+          ],
+        ),
       ),
     );
   }
