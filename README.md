@@ -1,16 +1,30 @@
 # Weather_app
 
-A new Flutter project.
+Welcome to the Weather App Backend! This backend is built using Flutter and provides weather data using the Weatherstack API. It supports live location fetching to offer accurate and up-to-date weather information.
 
-## Getting Started
+## Features
+-> Fetch current weather data for a given location.
+-> Get weather forecasts for the upcoming days.
+-> Support for live location-based weather updates.
 
-This project is a starting point for a Flutter application.
+## Prerequisites
+-> Flutter and Dart SDK installed.
+-> Weatherstack API key.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
+-> Clone the repository.
+-> Install Flutter packages with flutter pub get.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Configuration
+-> Create a .env file in the root directory.
+-> Add your Weatherstack API key to the .env file.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
+-> Run the backend server with flutter run.
+
+
+
+
+
+
+
